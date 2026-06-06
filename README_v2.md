@@ -1,30 +1,39 @@
 # Bono de Programación — Matemáticas Discretas I
 ### Universidad Nacional de Colombia
-
+ 
 **Asignatura:** Matemáticas Discretas I  
 **Docente:** Jhoan Sebastian Tenjo García  
 **Corte:** Segundo  
 **Problemas resueltos:** 6 y 8
-
+ 
+---
+ 
+## Estructura del repositorio
+ 
+    bono_discretas/
+    ├── img/
+    │   ├── 6-1.png
+    │   ├── 6-2.png
+    │   ├── 6-3.png
+    │   ├── 6-4.png
+    │   ├── 6-5.png
+    │   ├── 8-1.png
+    │   ├── 8-1-1.png
+    │   ├── 8-2.png
+    │   ├── 8-2-2.png
+    │   ├── 8-3.png
+    │   ├── 8-3-3.png
+    │   ├── 8-4.png
+    │   ├── 8-4-4.png
+    │   ├── 8-5.png
+    │   └── 8-5-5.png
+    ├── problema6_perm_circular.py
+    ├── problema8_caminos_grilla.py
+    └── README.md
+ 
 ---
 
-## 📁 Estructura del repositorio
-
-```
-bono_discretas/
-├── problema6_perm_circular.py
-├── problema8_caminos_grilla.py
-├── img/
-│   ├── 6-1.png
-│   ├── 6-2.png
-│   ├── 8-1.png
-│   └── 8-2.png
-└── README.md
-```
-
----
-
-## ⚙️ Instalación y ejecución
+## Instalación y ejecución
 
 - Python 3.8 o superior
 - Sin dependencias externas (no requiere `pip install`)
@@ -39,32 +48,54 @@ python problema8_caminos_grilla.py
 
 ---
 
-## 🔄 Problema 6: Permutaciones Circulares
+## Problema 6: Permutaciones Circulares
 
 Cuenta las formas de sentar `n` personas alrededor de una mesa circular, donde dos arreglos son iguales si uno es rotación del otro.
 
 **Fórmula:** `(n - 1)!`
 
-### Prueba 1 — Ejecución normal con restricciones
+### Prueba 1
 ![prueba 6-1](img/6-1.png)
 
-### Prueba 2 — Validación de entrada inválida
+### Prueba 2
 ![prueba 6-2](img/6-2.png)
+
+### Prueba 3
+![prueba 6-3](img/6-3.png)
+
+### Prueba 4
+![prueba 6-4](img/6-4.png)
+
+### Prueba 5
+![prueba 6-5](img/6-5.png)
+
 
 ---
 
-## 🗺️ Problema 8: Caminos Mínimos en una Grilla
+## Problema 8: Caminos Mínimos en una Grilla
 
 Cuenta los caminos desde `(0,0)` hasta `(a,b)` moviéndose solo → (derecha) o ↑ (arriba).
 
 **Fórmula:** `C(a+b, a) = (a+b)! / (a! × b!)`
 
-### Prueba 1 — Ejecución con tabla de caminos
+### Prueba 1 
 ![prueba 8-1](img/8-1.png)
-
-### Prueba 2 — Punto obligatorio y punto bloqueado
+![prueba 8-1](img/8-1-1.png)
+### Prueba 2
 ![prueba 8-2](img/8-2.png)
+![prueba 8-2](img/8-2-2.png)
 
+### Prueba 3
+![prueba 8-3](img/8-3.png)
+![prueba 8-3](img/8-3-3.png)
+
+### Prueba 4
+![prueba 8-4](img/8-4.png)
+![prueba 8-4](img/8-4-4.png)
+
+### Prueba 5
+![prueba 8-5](img/8-5.png)
+![prueba 8-1](img/8-5-5.png)
 ---
 
 ## 📊 Eficiencia
